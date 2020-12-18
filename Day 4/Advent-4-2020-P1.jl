@@ -6,13 +6,11 @@ end
 
 function getPassInfo(passportList::Array{String})
     list = Array{String}[]
-    i = 0
     temp = String[]
     for lines in passportList
         if length(lines) == 0
             push!(list, copy(temp))
             empty!(temp)
-            i += 1
         end
         push!(temp, lines)
     end
