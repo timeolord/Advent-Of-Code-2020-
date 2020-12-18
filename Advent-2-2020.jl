@@ -1,7 +1,5 @@
 using Pkg
 using CSV
-using DataFrames
-using Zygote
 
 minMax = String[]
 letter = String[]
@@ -43,4 +41,3 @@ for pass in passwords
     end
     global i += 1
 end
-
