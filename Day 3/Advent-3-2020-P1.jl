@@ -1,6 +1,6 @@
 using Pkg
 
-hill = open("Advent-3-2020-List.txt") do file
+hill = open("Day 3\\Advent-3-2020-List.txt") do file
     readlines(file)
 end
 
